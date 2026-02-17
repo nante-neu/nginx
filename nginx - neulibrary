@@ -1,3 +1,6 @@
+*** conf location
+sudo nano /etc/nginx/sites-available/neulibrary.conf
+
 server {
     listen 80;
     server_name 192.168.103.53;
@@ -42,3 +45,8 @@ server {
         proxy_set_header X-Forwarded-Host $server_name;
     }
 }
+
+
+
+***
+sudo ln -s /etc/nginx/sites-available/neulibrary.conf /etc/nginx/sites-enabled
