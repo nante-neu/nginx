@@ -1,3 +1,9 @@
+sudo nano /etc/nginx/sites-available/neulibrary.conf
+
+sudo nano /etc/nginx/sites-available/inclibrary.conf
+
+
+
 sudo nginx -t
 sudo systemctl restart nginx
 
