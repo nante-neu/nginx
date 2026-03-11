@@ -11,7 +11,7 @@ sudo systemctl restart nginx
 
 *** Monitor Logs realtime
 sudo tail -f /var/log/nginx/error.log
-
+sudo tail -f /var/log/nginx/access.log
 
 *** Clear the logs
 sudo truncate -s 0 /var/log/nginx/error.log
